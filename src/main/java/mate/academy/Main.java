@@ -24,6 +24,7 @@ public class Main {
         bookUpdated.setTitle("Test bookUpdated");
         bookUpdated.setAuthor("Test authorUpdated");
         bookUpdated.setGenre("Test genreUpdated");
+        bookUpdated.setId(createdBook.getId());
         bookDao.update(bookUpdated);
     }
 }
